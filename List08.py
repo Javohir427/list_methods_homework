@@ -7,14 +7,11 @@ def main(fruits):
         list: return answer
     """
     i = 0
-    n = 0
- 
+    n = []
     while i<len(fruits):
-        if fruits[i]=="apple":
-
-         n = fruits.pop(i)
-         i+=1
-    return fruits
-
-   
-print(main(["apple", "banana", "apple", "pear", "apple"]))   
+        if fruits[i]!="apple":
+            fruits
+            n.append(fruits[i])
+        i+=1
+    return n
+print(main(["apple", "apple", "apple", "apple", "kiwi"]))
